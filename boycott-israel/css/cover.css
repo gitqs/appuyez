@@ -250,6 +250,10 @@ body {
    margin-bottom:15px
 }
 
+b, strong {
+   font-family: 'Montserrat-bold';
+}
+
 .response{
   margin-top: 40px;
 }
