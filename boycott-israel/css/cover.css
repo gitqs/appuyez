@@ -238,6 +238,7 @@ body {
 }
 
 .lead{
+  margin-bottom: 15px !important;
   margin-top: 0;
   font-size: 22px;
   line-height: 27px;
