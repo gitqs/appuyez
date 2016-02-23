@@ -136,8 +136,12 @@ h1{
   line-height: 60px;
   text-transform: uppercase;
 }
-p{
-  margin: 30px 0 0
+
+.p {
+   margin-top: 0;
+   font-size: 22px;
+   line-height: 27px;
+   margin-bottom:15px
 }
 
 
@@ -241,13 +245,6 @@ body {
   margin-top: 0;
   font-size: 22px;
   line-height: 27px;
-}
-
-.p {
-   margin-top: 0;
-   font-size: 22px;
-   line-height: 27px;
-   margin-bottom:15px
 }
 
 b, strong {
