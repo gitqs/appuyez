@@ -274,6 +274,7 @@ input.mce_inline_error{
 
 .formulaire{
   text-align: center;
+margin-top: 50px; 
 }
 
 #mce-error-response a{
