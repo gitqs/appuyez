@@ -145,10 +145,11 @@ textarea{
 /* Titles */
 h3{
   font-family: 'Montserrat-bold';
-  font-size: 35px;
+  font-size: 30px;
   line-height: 36px;
   padding: 0 0 15px;
   margin: 0
+
 }
 h2{
   color: #9bc9cf;
@@ -159,9 +160,10 @@ h2{
 }
 h1{
  font-family: 'Montserrat-bold';
- font-size: 40px;
- line-height: 50px;
+ font-size: 35px;
+ line-height: 40px;
  text-transform: uppercase;
+margin-top:50px    
 }
 p {
    margin-top: 0;
@@ -189,9 +191,9 @@ body {
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100%;
-  height: 640px; /* For at least Firefox */
+  height: 500px; /* For at least Firefox */
   /*min-height: 100%;*/
   background: url(../images/bg-image.jpg) no-repeat center; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
