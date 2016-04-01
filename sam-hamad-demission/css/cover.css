@@ -1,0 +1,457 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -180px;
+    visibility: hidden;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-qs,
+.btn-qs:hover,
+.btn-qs:focus {
+  font-family: 'Montserrat-bold';
+}
+
+.btn-event{
+  background: url("../images/ms-facebook.png") no-repeat 15px 11px;
+  background-size: 27px 27px;
+  padding-left: 55px;
+  white-space: nowrap;
+}
+
+.social{
+  float: right;
+  padding-top: 20px;
+  width: 50%
+}
+
+@media (max-width: 768px) {
+  .btn-event{
+    background-position: 15px 23px;
+    white-space: pre-wrap;
+    
+    /*text-indent: 40px;*/
+    
+    line-height: 20px
+  }
+}
+
+.btn-qs, .btn-qs.focus, .btn-qs:focus, .btn-qs:hover {
+  color:#fff;
+  background-color:#9AC9CF;
+  border:none;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.btn-qs:hover {
+  background-color:#ABDAE0;
+}
+
+.form-input, .form-submit, .form-submit-newsletter{
+  display: block;
+}
+
+.full-input{
+  display: block;
+}
+
+.form-textarea{
+  display: block;
+}
+
+.form-input, .form-textarea{
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+
+
+input, textarea{
+  color: #000;
+  border: none;
+  line-height: 14px;
+  padding: 18px;
+  height: 50px;
+  font-size: 14px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+textarea{
+  height: 130px;
+  margin-top: 1px;
+  border: none;
+  padding: 18px;
+  line-height: 20px
+}
+
+@media (min-width: 768px) {
+  .form-input, .form-submit-newsletter{
+    display: inline-block;
+  }
+  .form-input{
+    margin-left: 1px;
+  }
+  .full-input{
+    display: block;
+  }
+  .formulaire-2col .full-input input{
+    /*width: 401px;*/
+    width: 100%;
+  }
+  .formulaire-1col .full-input input{
+    width: 401px;
+  }
+  input{
+    width: 200px;
+  }
+  .form-submit input{
+    width: auto;
+  }
+
+  textarea{
+    width: 501px;
+  }
+  .form-submit-newsletter .btn-qs, 
+  .form-submit-newsletter .btn-qs.focus, 
+  .form-submit-newsletter .btn-qs:focus, 
+  .form-submit-newsletter .btn-qs:hover{
+    width: auto;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-bottom-radius: 0;
+  }
+}
+
+/* Titles */
+h3{
+  font-family: 'Montserrat-bold';
+  font-size: 30px;
+  line-height: 36px;
+  padding: 0 0 15px;
+  margin: 0
+
+}
+h2{
+  color: #9bc9cf;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 0px
+}
+h1{
+ font-family: 'Montserrat-bold';
+ font-size: 36px;
+ line-height: 40px;
+ text-transform: uppercase;
+margin-top:50px    
+}
+p {
+   margin-top: 0;
+   font-size: 20px;
+   line-height: 25px;
+   margin-bottom:15px
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #fff;
+  text-align: left;
+  font-family: 'Montserrat-light'; 
+  background-color: #F26522;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 500px; /* For at least Firefox */
+  /*min-height: 100%;*/
+  background: url(../images/bg-image.jpg) no-repeat top right; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+.site-wrapper-inner {
+  display: table-cell;
+  /*vertical-align: top;*/
+  padding-top: 100px;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Body
+ */
+.content {
+    text-align: left;
+    padding-top: 58px;
+    margin-bottom: 100px;
+    border-bottom: dotted 1px #fff;
+ }
+
+.headline, .footerline {
+    margin-bottom: 100px;
+ }
+
+.footerline{
+  margin-bottom: 0px;
+}
+
+.footer{
+  padding: 20px;
+  background-color: #303030;
+  text-align: center;
+  font-size: 10px
+}
+
+
+.ville{
+    margin-top: -58px;
+    margin-bottom: 58px;
+    padding-bottom: 100px;
+ }
+
+.last-ville{
+  margin-bottom: 0;
+}
+
+.bus-line{
+    background: url("../images/bus-line.jpg") repeat-y 10px 0;
+    background-size: 15px 1px;
+ }
+
+.bus-stop{
+    height: 15px;
+    background: url("../images/bus-stop.png") no-repeat 10px 0;
+    background-size: 15px 15px;
+    margin-top: -7px;
+ }
+
+@media (min-width: 992px) {
+  .bus-line, .bus-stop{
+      background-position: 100px 0;
+  }
+}
+
+.lead{
+  margin-top: 0;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+b, strong {
+   font-family: 'Montserrat-bold';
+}
+
+.response{
+  margin-top: 40px;
+}
+
+.mce_inline_error{
+  position: absolute;
+  font-size: 11px
+}
+
+input.mce_inline_error{
+  position: relative;
+  font-size: 14px;
+}
+
+#mc_embed_signup div.mce_inline_error{
+  background-color: #FF8C57 !important;
+}
+#mc_embed_signup input.mce_inline_error {
+  border: solid #FF8C57 !important;
+}
+
+.formulaire-1col{
+  text-align: center;
+  margin-top: 50px; 
+}
+
+.formulaire-2col{
+  text-align: center;
+}
+
+#mce-error-response a{
+ text-decoration: underline;
+}
+
+/*
+ * Header
+ */
+.rrssb-buttons{
+  font-family: "Montserrat-bold" !important; 
+  font-size: 13px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+}
+.rrssb-text{
+  padding-left: 5px;
+}
+
+.label{
+  font-size: 12px !important; 
+  line-height: 37px !important;
+  padding-right: 10px !important;
+  text-align: left;
+}
+
+.rrssb-buttons li{
+  padding-left: 5px !important;
+  float: right;
+}
+
+
+/*
+ * Navigation
+ */
+
+.navbar{
+  min-height: auto !important;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 80px;
+}
+
+.navbar-header{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.navbar-inverse{
+  background-color: #303030;
+  border: none;
+}
+
+.navbar-nav, 
+.navbar-nav > li > a,
+.navbar-header > a{
+  line-height: 20px;
+}
+
+.navbar-nav{
+  float: none;
+  font-family: "Montserrat-bold";
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav, 
+  .navbar-nav > li > a,
+  .navbar-header > a{
+    line-height: 45px;
+  }
+  .navbar-nav{
+    float: right;
+  }
+}
+
+.navbar-inverse .navbar-nav>li>a.lower-text{
+  color: #917199;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .navbar-header{
+    float: right !important;
+    width: 600px;
+  }
+  .label{
+    text-align: right;
+  }
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    /*vertical-align: middle;*/
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
